@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section
+        class="container max-w-screen-xl m-auto flex items-center justify-between py-4"
+      >
+        <img src="./assets/images/logo.png" alt="" />
+        <ul class="flex gap-8 font-medium text-xl">
+          <li class="hover:text-amber-500"><a href="">Home</a></li>
+          <li class="hover:text-amber-500"><a href="./shop.html">Shop</a></li>
+          <li class="hover:text-amber-500"><a href="">About</a></li>
+          <li class="hover:text-amber-500"><a href="">Contact</a></li>
+        </ul>
+        <div class="flex gap-4">
+          <span class="material-symbols-outlined">person</span>
+          <span class="material-symbols-outlined"> search</span>
+          <span class="material-symbols-outlined">favorite</span>
+          <span class="material-symbols-outlined">shopping_cart</span>
+        </div>
+      </section>
+      <!--End Navigation Bar ---->
+      <section>
+        <img src="./assets/images/contact_banner.jpg" alt="" class="w-full" />
+      </section>
+    </header>
+    <!--End Banner --->
+    <main class="container max-w-screen-xl m-auto mt-16">
+      <section class="grid grid-cols-3 gap-8">
+        <div class="flex">
+          <div>
+            <span
+              class="material-symbols-outlined border border-solid p-3 border-[#CA8A04] text-[#CA8A04] mr-6 w-[40px] h-[40px]"
+              >location_on</span
+            >
+          </div>
+          <div>
+            <h2 class="font-semibold text-[24px] mb-5">ADDRESS</h2>
+            <p class="text-[18px] text-[#71717A]">
+              60/850 Đường Láng, Láng <br />
+              Thượng, Đống Đa, Hà Nội
+            </p>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div>
+            <span
+              class="material-icons border border-solid p-3 border-[#CA8A04] text-[#CA8A04] mr-6 w-[40px] h-[40px]"
+              >contacts</span
+            >
+          </div>
+          <div>
+            <h2 class="font-semibold text-[24px] mb-5">CONTACT DETAILS</h2>
+            <p class="text-[18px] text-[#71717A]">info@furniro.com</p>
+            <p class="text-[18px] text-[#71717A]">02056278686</p>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div>
+            <span
+              class="material-icons border border-solid p-3 border-[#CA8A04] text-[#CA8A04] mr-6 w-[40px] h-[40px]"
+              >share</span
+            >
+          </div>
+          <div>
+            <h2 class="font-semibold text-[24px] mb-5">SOCIAL NETWORKS</h2>
+            <div class="flex justify-between">
+              <img src="./assets/images/Vector_1.png" alt="" />
+              <img src="./assets/images/Vector_2.png" alt="" />
+              <img src="./assets/images/Vector_3.png" alt="" />
+              <img src="./assets/images/Vector_4.png" alt="" />
+              <img src="./assets/images/Vector_5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-2 gap-8 mt-16">
+        <div>
+          <img src="./assets/images/contact_1.png" alt="" />
+        </div>
+
+        <div class="">
+          <p class="text-[20px]">contact</p>
+          <h1 class="text-[40px] font-semibold">CONNECT WITH US NOW</h1>
+          <form action="" class="mt-8">
+            <div class="grid grid-cols-2 gap-8">
+              <div class="">
+                <input
+                  class="border-b outline-none w-full "
+                  placeholder="First name"
+                  type="text"
+                  name="firstname"
+                  id=""
+                />
+                <input
+                  class="border-b outline-none w-full"
+                  placeholder="Email"
+                  type="text"
+                  name="email"
+                  id=""
+                />
+              </div>
+
+              <div class="">
+                <input
+                  class="border-b outline-none w-full "
+                  placeholder="Last name"
+                  type="text"
+                  name="lastname"
+                  id=""
+                />
+                <input
+                  class="border-b outline-none w-full"
+                  placeholder="Phone number"
+                  type="text"
+                  name="sdt"
+                  id=""
+                />
+              </div>
+            </div>
+
+              <input
+                class="border-b outline-none w-full"
+                placeholder="Message"
+                type="text"
+                name="message"
+                id=""
+              />
+               <button class="mt-8 border border-solid border-yellow-600 text-yellow-600 font-semibold text-base py-2 w-full hover:bg-yellow-700 hover:text-white" type="submit">Send Infomation</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#262626] text-white pt-16 pb-8">
+      <div
+        class="grid grid-cols-4 gap-8 container max-w-screen-xl m-auto mb-16"
+      >
+        <div>
+          <img src="./assets/images/logo_footer.svg" alt="" class="mb-4" />
+          <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+          <ul>
+            <li class="mb-4"><a href="">Home</a></li>
+            <li class="mb-4"><a href="">Shop</a></li>
+            <li class="mb-4"><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl mb-4">Help</h3>
+          <ul>
+            <li class="mb-4"><a href="">Payment Options</a></li>
+            <li class="mb-4"><a href="">Returns</a></li>
+            <li><a href="">Privacy Policies</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl mb-4">Location</h3>
+          <ul>
+            <li class="mb-4"><a href="">support@euphoria.in</a></li>
+            <li class="mb-4"><a href="">Ahmedabad Main Road</a></li>
+            <li><a href="">Udaipur, India- 313002</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="text-center mt-8">
+        Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
